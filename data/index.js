@@ -50,7 +50,7 @@ export const AboutTwoData = {
   image: aboutTwo1,
 };
 
-import team1 from "@/images/team-1-1.png";
+
 
 export const TeamOneData = {
   sectionContent: {
@@ -62,19 +62,12 @@ export const TeamOneData = {
     {
       name: "",
       designation: "",
-      image: team1,
+      image: '',
       content: "",
     },
   ],
 };
 
-import sidebarImage from "@/images/widget-1-1.png";
-
-export const sidebarTextWidgetData = {
-  text: "Lorem Ipsum is simply dummy text of the rinting and typesetting industry has been the industry.",
-  title: "Image with text",
-  image: sidebarImage,
-};
 
 export const FooterAboutData = {
   title: "Let's Get In Touch!",

@@ -11,7 +11,7 @@
     "@fontsource/pacifico": "^4.1.0",
     "@fontsource/rubik": "^4.1.1",
     "bootstrap": "^4.6.0",
-    "next": "10.0.6",
+    "next": "12",
     "next-images": "^1.7.0",
     "react": "17.0.1",
     "react-bootstrap": "^1.4.3",
