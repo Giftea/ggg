@@ -1,0 +1,138 @@
+@import './components/about.css';
+@import './components/footer.css';
+@import './components/mobile-menu.css';
+@import './components/navbar.css';
+@import './components/services.css';
+@import './components/slider.css';
+@import './components/team.css';
+
+body {
+  font-family: "Rubik";
+  color: #757575;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+a:hover,
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.thm-container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sec-pad {
+  padding: 120px 0;
+}
+
+.p0 {
+  padding: 0 !important;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+.pb0 {
+  padding-bottom: 0 !important;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;
+}
+
+.gray-bg {
+  background: #f4f9fd;
+}
+
+.thm-btn {
+  border: none;
+  outline: none;
+  display: inline-block;
+  vertical-align: middle;
+  background: #f05f40;
+  border-radius: 35px;
+  color: #fff;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 16px;
+  padding: 18px 69px;
+  transition: all 0.4s;
+}
+.thm-btn:hover {
+  background: #fff;
+  color: #f05f40;
+}
+.thm-btn.yellow-bg {
+  background: #fec931;
+  color: #212121;
+}
+.thm-btn.yellow-bg:hover {
+  background: #f05f40;
+  color: #fff;
+}
+
+.sec-title {
+  margin-top: -8px;
+  margin-bottom: 55px;
+}
+.sec-title span {
+  font-family: "Pacifico";
+  color: #f05f40;
+  font-size: 20px;
+}
+.sec-title h3 {
+  margin: 0;
+  color: #212121;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.sec-title p {
+  color: #757575;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .sec-title p {
+    white-space: pre-line;
+  }
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #f05f40;
+  color: #fff;
+  font-size: 17px;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 23px 42px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+}
+.scroll-to-top:hover {
+  background: #fec931;
+  color: #212121;
+}
+
+.fa-level-up:before {
+  content: "\f201";
+}

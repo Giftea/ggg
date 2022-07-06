@@ -1,0 +1,161 @@
+.main-slider .swiper-slide {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-slider .swiper-slide .image-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 7000ms ease;
+  transition: -webkit-transform 7000ms ease;
+  transition: transform 7000ms ease;
+  transition: transform 7000ms ease, -webkit-transform 7000ms ease;
+}
+
+.main-slider .swiper-slide .thm-container {
+  position: relative;
+}
+
+.main-slider__subtext {
+  margin: 0;
+  color: #fec931;
+  text-transform: uppercase;
+  font-size: 20px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-90px);
+  transform: translateY(-90px);
+  -webkit-transition-delay: 1000ms;
+  transition-delay: 1000ms;
+  -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+  transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease,
+    -webkit-transform 2000ms ease;
+}
+
+@media (min-width: 768px) {
+  .main-slider__subtext {
+    font-size: 25px;
+  }
+}
+
+.main-slider__title {
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Rubik";
+  white-space: pre-line;
+  font-size: 35px;
+  line-height: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  opacity: 0;
+  -webkit-transform: translateY(120px);
+  transform: translateY(120px);
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+  transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease,
+    -webkit-transform 2000ms ease;
+}
+
+.main-slider .thm-btn {
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
+  -webkit-transition-delay: 2500ms;
+  transition-delay: 2500ms;
+  -webkit-transition: opacity 2000ms ease, color 500ms ease,
+    background 500ms ease, -webkit-transform 2000ms ease;
+  transition: opacity 2000ms ease, color 500ms ease, background 500ms ease,
+    -webkit-transform 2000ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease, color 500ms ease,
+    background 500ms ease;
+  transition: transform 2000ms ease, opacity 2000ms ease, color 500ms ease,
+    background 500ms ease, -webkit-transform 2000ms ease;
+}
+
+@media (min-width: 768px) {
+  .main-slider__title {
+    font-size: 60px;
+    letter-spacing: -0.06em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-slider__title {
+    line-height: 1;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1536px) {
+  .main-slider__title {
+    font-size: 120px;
+    line-height: 1;
+  }
+}
+
+.main-slider .swiper-slide-active .image-layer {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.main-slider .swiper-slide-active .thm-btn,
+.main-slider .swiper-slide-active .main-slider__title,
+.main-slider .swiper-slide-active .main-slider__subtext {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateY(0) translateX(0);
+  transform: translateY(0) translateX(0);
+}
+
+.main-slider [class*="swiper-button-"]::after {
+  display: none;
+}
+.main-slider [class*="swiper-button-"] {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 99;
+  display: none;
+}
+.main-slider [class*="swiper-button-"]:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .main-slider [class*="swiper-button-"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-slider [class*="swiper-button-"] {
+    width: 70px;
+    height: 70px;
+  }
+}

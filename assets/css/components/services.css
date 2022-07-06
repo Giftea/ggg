@@ -1,0 +1,152 @@
+.what-we-do {
+  padding-bottom: 140px;
+}
+.what-we-do .single-what-we-do .text-box {
+  background: #f5f6fa;
+  position: relative;
+  margin-top: 10px;
+  padding: 0 40px;
+  padding-top: 45px;
+  padding-bottom: 43px;
+}
+.what-we-do .single-what-we-do .text-box:before {
+  background: #f060409a;
+}
+.what-we-do .single-what-we-do .text-box:hover h3,
+.what-we-do .single-what-we-do .text-box:hover p {
+  color: #fff;
+}
+.what-we-do .single-what-we-do .text-box:hover a.read-more {
+  background: #fff;
+  color: #f05f40;
+}
+.what-we-do .single-what-we-do .text-box h3 {
+  font-size: 30px;
+  color: #212121;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 32px;
+  transition: all 0.4s ease;
+}
+.what-we-do .single-what-we-do .text-box p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+  transition: all 0.4s ease;
+}
+.what-we-do .single-what-we-do .text-box a.read-more {
+  width: 42px;
+  height: 42px;
+  background: #f05f40;
+  color: #fff;
+  font-size: 20px;
+  line-height: 42px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  bottom: -21px;
+  right: 30px;
+  transition: all 0.4s ease;
+}
+.what-we-do .single-what-we-do .text-box a.read-more:hover {
+  background: #fff;
+  color: #f05f40;
+}
+.what-we-do .single-what-we-do-one {
+  background: #f5f6fa;
+  position: relative;
+  padding: 0 40px;
+  padding-top: 50px;
+  padding-bottom: 43px;
+  width: 100%;
+}
+.what-we-do .single-what-we-do-one:before {
+  background: #f05f40;
+}
+.what-we-do .single-what-we-do-one:hover i,
+.what-we-do .single-what-we-do-one:hover h3,
+.what-we-do .single-what-we-do-one:hover p {
+  color: #fff;
+}
+.what-we-do .single-what-we-do-one:hover a.read-more {
+  background: #fff;
+  color: #f05f40;
+}
+.what-we-do .single-what-we-do-one i {
+  font-size: 65px;
+  color: #2e8ed2;
+  transition: all 0.4s ease;
+}
+.what-we-do .single-what-we-do-one h3 {
+  font-size: 30px;
+  color: #212121;
+  font-weight: bold;
+  margin: 0;
+  line-height: 30px;
+  margin-top: 22px;
+  margin-bottom: 35px;
+  line-height: 36px;
+  transition: all 0.4s ease;
+}
+.what-we-do .single-what-we-do-one p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+  transition: all 0.4s ease;
+}
+.what-we-do .single-what-we-do-one a.read-more {
+  width: 42px;
+  height: 42px;
+  background: #f05f40;
+  color: #fff;
+  font-size: 20px;
+  line-height: 42px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  bottom: -21px;
+  right: 30px;
+  transition: all 0.4s ease;
+}
+.what-we-do .single-what-we-do-two {
+  padding-left: 30px;
+}
+.what-we-do .single-what-we-do-two + .single-what-we-do-two {
+  margin-top: 30px;
+}
+.what-we-do .single-what-we-do-two .img-box {
+  float: right;
+}
+.what-we-do .single-what-we-do-two .text-box {
+  float: left;
+  width: 50%;
+}
+.what-we-do .single-what-we-do-two .text-box h3,
+.what-we-do .single-what-we-do-two .text-box p {
+  margin: 0;
+}
+.what-we-do .single-what-we-do-two .text-box h3 {
+  color: #202020;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.what-we-do .single-what-we-do-two .text-box h3 a {
+  color: inherit;
+  transition: all 500ms ease;
+}
+.what-we-do .single-what-we-do-two .text-box h3 a:hover {
+  color: #f05f40;
+}
+.what-we-do .single-what-we-do-two .text-box p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #747474;
+}
+.what-we-do.service-page .single-what-we-do .text-box {
+  padding: 0 60px;
+  padding-top: 55px;
+  padding-bottom: 53px;
+}

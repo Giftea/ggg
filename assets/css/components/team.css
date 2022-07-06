@@ -1,0 +1,87 @@
+.team-section {
+  padding-bottom: 120px;
+}
+.team-section .swiper-carousel-nav,
+.team-section .owl-theme .owl-nav {
+  margin-top: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
+  display: flex;
+  margin: 0 -10px;
+}
+.team-section .swiper-wrapper {
+  padding-bottom: 30px;
+}
+.team-section [class*="swiper-button-"]::after {
+  display: none;
+}
+.team-section [class*="swiper-button-"],
+.team-section .owl-theme .owl-nav [class*="owl-"] {
+  width: 59px;
+  height: 59px;
+  color: #212121;
+  background: #fff;
+  font-size: 24px;
+  line-height: 59px;
+  border-radius: 50%;
+  margin: 0 10px;
+  padding: 0;
+  position: static;
+  transition: all 0.4s;
+}
+.team-section [class*="swiper-button-"]:last-child,
+.team-section [class*="swiper-button-"]:hover,
+.team-section .owl-theme .owl-nav [class*="owl-"]:last-child,
+.team-section .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #f05f40;
+  color: #fff;
+}
+.team-section .single-team-carousel {
+  padding-left: 60px;
+  position: relative;
+  padding-top: 0px;
+}
+.team-section .single-team-carousel .inner {
+  margin-top: 60px;
+  background: #f5f6fa;
+}
+.team-section .single-team-carousel .inner .img-box {
+  position: absolute;
+  top: -60px;
+  left: 0;
+}
+.team-section .single-team-carousel .inner .team-content {
+  padding-left: 470px;
+  padding-top: 55px;
+  padding-bottom: 80px;
+  padding-right: 67px;
+  width: 100%;
+}
+.team-section .single-team-carousel .inner .team-content .title {
+  margin-bottom: 42px;
+}
+.team-section .single-team-carousel .inner .team-content .title span,
+.team-section .single-team-carousel .inner .team-content .title h3 {
+  margin: 0;
+}
+.team-section .single-team-carousel .inner .team-content .title span {
+  font-family: "Pacifico";
+  font-size: 20px;
+  color: #f05f40;
+}
+.team-section .single-team-carousel .inner .team-content .title h3 {
+  color: #212121;
+  font-size: 40px;
+  font-weight: bold;
+}
+.team-section .single-team-carousel .inner .team-content p {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+  color: #757575;
+  white-space: pre-line;
+}
+.team-section .single-team-carousel .inner .team-content p + p {
+  margin-top: 30px;
+}

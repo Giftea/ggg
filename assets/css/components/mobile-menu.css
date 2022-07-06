@@ -1,0 +1,154 @@
+.mobile-menu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+}
+
+.mobile-menu__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.7;
+}
+
+.mobile-menu__inner {
+  overflow-y: auto;
+  max-width: 350px;
+  background-color: #000;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding: 30px;
+}
+
+.mobile-menu__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-menu__close {
+  color: #fff;
+  font-size: 16px;
+}
+.mobile-menu__close:active,
+.mobile-menu__close:focus {
+  color: #fff;
+}
+
+.mobile-menu__logo {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+}
+
+.mobile-menu__logo a {
+  color: inherit;
+}
+
+.mobile-menu__links {
+  margin-top: 20px;
+}
+.mobile-menu__links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mobile-menu__links ul li a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 45px;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mobile-menu__links .menu-item-has-children {
+  position: relative;
+}
+.mobile-menu__links .menu-item-has-children button {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  background-color: #fec931;
+  width: 35px;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: #212121;
+}
+
+.mobile-menu__links ul.sub-menu {
+  display: none;
+}
+.mobile-menu__links ul.sub-menu.show {
+  display: block;
+}
+
+.mobile-menu__text {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 500;
+  color: #a0a0a0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mobile-menu__socials {
+  display: flex;
+  align-items: center;
+}
+.mobile-menu__socials a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+  color: #fff;
+  transition: all 500ms ease;
+}
+.mobile-menu__socials a.fa-telegram {
+  background-color: #0088cc;
+}
+.mobile-menu__socials a + a {
+  margin-left: 10px;
+}
+.mobile-menu__socials a:hover {
+  background-color: #fff;
+  color: #212121;
+}
+@media (max-width: 1199px) {
+  .header .navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.mobile-menu__toggler {
+  font-size: 26px;
+  color: #212121;
+  margin-top: 10px;
+  display: flex;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .mobile-menu__toggler {
+    display: none;
+  }
+}

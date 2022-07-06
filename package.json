@@ -1,0 +1,24 @@
+{
+  "name": "ggg",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fontsource/pacifico": "^4.1.0",
+    "@fontsource/rubik": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "next": "10.0.6",
+    "next-images": "^1.7.0",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "17.0.1",
+    "react-modal-video": "^1.2.6",
+    "react-scroll": "^1.8.1",
+    "swiper": "^6.4.10"
+  }
+}

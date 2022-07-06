@@ -1,0 +1,36 @@
+.welcome-section {
+  background: #f5f6fa;
+}
+.welcome-section .welcome-content {
+  padding-left: 56px;
+}
+.welcome-section .welcome-content p {
+  margin: 0;
+  white-space: pre-line;
+}
+.welcome-section .welcome-content .title {
+  margin-bottom: 38px;
+}
+.welcome-section .welcome-content .title p,
+.welcome-section .welcome-content .title h3 {
+  margin: 0;
+}
+.welcome-section .welcome-content .title p {
+  color: #f05f40;
+  font-family: "Pacifico";
+  font-size: 20px;
+}
+.welcome-section .welcome-content .title h3 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #212121;
+}
+.welcome-section .welcome-content p {
+  color: #757575;
+}
+.welcome-section .welcome-content p + p {
+  margin-top: 20px;
+}
+.welcome-section .welcome-content a.thm-btn {
+  margin-top: 55px;
+}
