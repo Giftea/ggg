@@ -29,8 +29,7 @@ const Service = () => {
               </a>
               <p>
                 Have an idea, but don't know where to begin? Let us know! We
-                have the right services from fundraising to development to
-                kickstart it.
+                have the right services from fundraising to development to...
               </p>
               <a href="/#" className="read-more fas fa-angle-right"></a>
             </div>
