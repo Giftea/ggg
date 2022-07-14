@@ -8,7 +8,7 @@ const Service = () => {
           <h3 className="broad-title">At Your Service</h3>
         </div>
         <div className="row">
-          <div className="col-sm-6 col-md-6 my-2 my-md-4">
+          <div className=" col-md-6 my-2 my-md-4">
             <div className="single-what-we-do-one hvr-bounce-to-bottom">
               <i className="fa fa-gem"></i>
               <a href="/#">
@@ -21,19 +21,19 @@ const Service = () => {
               <a href="/#" className="read-more fas fa-angle-right"></a>
             </div>
           </div>
-          <div className="col-sm-6 col-md-6 my-2 my-md-4">
+          <div className=" col-md-6 my-2 my-md-4">
             <div className="single-what-we-do-one hvr-bounce-to-bottom">
               <i className="fa fa-heart"></i>
               <a href="/#">
                 <h3>Incubation</h3>
               </a>
               <p>Have an idea, but don't know where to begin? Let us know! We
-                have the right services from fundraising to development.
+                have the right services from fundraising to development to kickstart it.
               </p>
               <a href="/#" className="read-more fas fa-angle-right"></a>
             </div>
           </div>
-          <div className="col-sm-6 col-md-6 my-2 my-md-4">
+          <div className=" col-md-6 my-2 my-md-4">
             <div className="single-what-we-do-one hvr-bounce-to-bottom">
               <i class="fa fa-level-up" aria-hidden="true"></i>
               <a href="/#">
@@ -44,7 +44,7 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="col-sm-6 col-md-6 my-2 my-md-4">
+          <div className=" col-md-6 my-2 my-md-4">
             <div className="single-what-we-do-one hvr-bounce-to-bottom">
               <i className="fa fa-gavel"></i>
               <a href="/#">

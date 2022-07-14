@@ -27,7 +27,7 @@ import sliderOne1 from "@/img/bgOne.jpg";
 export const SliderOneData = [
   {
     image: sliderOne1,
-    title: "We are preparing something Exciting & Amazing for You",
+    title: "We are preparing something exciting & amazing for You",
     subText: "Global Guidance Group",
     button: {
       label: "Find Out More",
